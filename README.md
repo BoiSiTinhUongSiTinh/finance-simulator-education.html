@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏦 Finance Simulator - Nền tảng Giả lập Tài chính Thông minh
 
-# Run and deploy your AI Studio app
+**Finance Simulator** là một ứng dụng web học tập tương tác, giúp người dùng làm quen với kiến thức Tài chính - Ngân hàng thông qua các kịch bản thực tế và mô hình giả lập thị trường được hỗ trợ bởi AI (Gemini API).
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/61f0d90e-7357-44e8-b9e3-46cb8ea2c758
+## 🌟 Tính năng nổi bật
 
-## Run Locally
+### 1. Đánh giá năng lực đầu vào (Placement Test)
+Hệ thống sử dụng bộ câu hỏi tình huống "lắt léo" để phân loại trình độ người dùng (Newbie, Amateur, Pro). 
+* **Điểm đặc biệt:** Không hiện đáp án đúng khi chọn sai, buộc người dùng phải suy luận dựa trên phần giải thích kiến thức.
 
-**Prerequisites:**  Node.js
+### 2. Mô hình giả lập thực chiến (Sandbox)
+Môi trường đầu tư giả định với các biến số kinh tế vĩ mô (Lạm phát, Lãi suất, Tin tức thị trường).
+* **Đích đến ngắn hạn:** Mục tiêu đạt lợi nhuận 50% (150.000.000 VNĐ) trong 10 lượt quyết định để "Tốt nghiệp".
+* **Cập nhật Real-time:** Tài sản nhảy số tức thì dựa trên các quyết định đầu tư (Mua/Bán/Vay nợ).
 
+### 3. Hệ thống Gamification (Duolingo Style)
+* **🔥 Daily Streak:** Giữ chuỗi đăng nhập hàng ngày để nhận các đặc quyền tài chính.
+* **🎯 Daily Quests:** Hệ thống nhiệm vụ đa dạng (Học tập, Thực chiến, Thử thách) để kiếm thêm vốn ảo.
+* **📈 Progress Bar:** Theo dõi tiến trình tiến tới mục tiêu tài chính một cách trực quan.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 4. Trợ lý AI (Master AI Coach)
+Sử dụng **Google Gemini API** làm "nhà cái" và "gia sư", điều phối toàn bộ kịch bản và phản hồi logic dựa trên các ma trận kết quả tài chính thực tế.
+
+---
+
+## 🛠 Công nghệ sử dụng
+
+* **Frontend:** HTML5, CSS3 (Tailwind CSS), JavaScript (ES6+).
+* **AI Engine:** Google AI Studio (Gemini 1.5 Flash/Pro).
+* **Data Storage:** LocalStorage (Lưu trữ Streak và Tài sản người dùng).
+
+---
+
+## 🚀 Hướng dẫn cài đặt
+
+1. **Clone dự án:**
+   ```bash
+   git clone [https://github.com/your-username/finance-simulator.git](https://github.com/your-username/finance-simulator.git)
